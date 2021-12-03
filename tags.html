@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> A-M Tags in HTML5 </title>
+    <link rel="stylesheet" type="text/css" href="Css/stylesheet.css">
+    <!--<base href="https://www.javatpoint.com/" >-->
+</head>
+<style>
+    #content
+    {
+text-align: right;
+text-shadow: 100px;
+color: rgb(37, 9, 68);
+direction: rtl;
+text-decoration-color: brown;
+text-decoration: underline;
+text-transform: uppercase;
+text-decoration-style: wavy;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+</style>
+
+<body>
+
+    <div class="section">
+        <h1> A Tags </h1>
+        <!--1-->
+        <a> HTML </a>
+        <a href="www.google.com">GOOGLE</a>
+        <!--2-->
+        <address>
+            <pre>
+             No.32, 
+             Andal Nagar,
+             Adambakkam,
+             Chennai-600088.
+         </pre>
+        </address>
+        <!--3-->
+        <!--circle-map-->
+        <img src="images/hills.jpg" alt="hills" usemap="#clickmap" />
+        <map name="clickmap">
+            <area shape="circle" coords="150,150,150" href="www.google.com">
+        </map>
+        <!--rectangle-map
+    <img src="images/hills.jpg" alt="hills" usemap="#rect-map"/>
+    <map id="rect-map" name="rect-map">
+        <area shape="rect" coords="150,200,150,200" href="www.google.com">
+    </map>-->
+        <!--4-->
+        <article>
+            The HyperText Markup Language, or HTML is the standard markup language
+            for documents designed to be displayed in a web browser.
+            It can be assisted by technologies such as Cascading Style Sheets
+            and scripting languages such as JavaScript.
+        </article>
+        <!--5-->
+        <aside id="content">
+            The HyperText Markup Language, or HTML is the standard markup language
+            for documents designed to be displayed in a web browser.
+            It can be assisted by technologies such as Cascading Style Sheets
+            and scripting languages such as JavaScript.
+
+        </aside>
+        <!--6-->
+        <audio controls>
+
+            <source src="sound.mp3" type="audio/mpeg">
+
+        </audio>
+        <!--7-->
+        <abbr title="HyperText Markup Language">HTML</abbr>
+    </div>
+    <div class="section">
+        <h1> B Tags </h1>
+        <!--1-->
+        <blockquote cite="www.google.com">
+
+            HyperText Markup Language
+        </blockquote>
+        <!--2-->
+        <button type="button" name="click button">Click Here </button>
+        <!--3-->
+        <p> The HyperText Markup Language, or HTML is the standard markup language
+            for documents designed to be displayed in a web browser.
+            It can be assisted by technologies such as <b>Cascading Style Sheets</b>
+            and scripting languages such as JavaScript.
+        </p>
+        <!----4-in head section-->
+        <a href="python-tutorial">Learn Python</a>
+        <!--5-->
+        hi<br>
+        iam<br>
+        learning<br>
+        html<br>
+        <!--6-->
+        <ul>
+            <li>User <bdi>hrefs</bdi>: 60 points</li>
+            <li>User <bdi>jdoe</bdi>: 80 points</li>
+            <li>User <bdi>إيان</bdi>: 90 points</li>
+        </ul>
+        <!--7-->
+        <bdo dir="rtl">
+            This text will go right-to-left.
+        </bdo>
+
+        <bdo dir="ltr">
+            This text will go left-to-right.
+        </bdo>
+    </div>
+    <div class="section">
+        <h1> C Tags </h1>
+        <!---1-->
+        <code>
+   &lt;head&gt;
+   &lt;/head&gt;
+</code>
+        <br>
+        <!--2-->
+        <cite title="said by abc">Author</cite>
+        <p>The HyperText Markup Language, or HTML is the standard markup language
+            for documents designed to be displayed in a web browser.
+            It can be assisted by technologies such as Cascading Style Sheets
+            and scripting languages such as JavaScript.</p>
+    </div>
+    <div class="section">
+        <ul>
+            <li> pen </li>
+            <li> pencil </li>
+        </ul>
+        <ol>
+            <li>pen</li>
+            <li>pencil</li>
+        </ol>
+        <!--dropdownlist-->
+        Select from the list:
+        <select>
+            <option> Select</option>
+            <optgroup label="stationary">
+
+                <option> Pen</option>
+                <option>Pencil</option>
+            </optgroup>
+            <optgroup label="place">
+
+                <option>Chennai </option>
+                <option>Trichy</option>
+            </optgroup>
+
+        </select>
+        <br>
+        <strong>hello</strong><br>
+        <em>hello</em>
+        <br>
+
+
+        <dl>
+            <dt>Pen</dt>
+            <dd>ink,gel,rollerball</dd>
+            <dt>Book</dt>
+            <dd>96pg,120pg,180pg</dd>
+            <dt>color</dt>
+            <dd>black</dd>
+            <dd>orange</dd>
+            <dd>red</dd>
+
+        </dl>
+        <table>
+            <thead>
+                <th>
+                <td>
+                    Colours
+                </td>
+                </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        red
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        blue
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <fieldset>
+            <legend>
+                REGISTRATION
+            </legend>
+            NAME:<input type="text">
+            DEGREE: <input type="checkbox" name="degree-chkbox"> BE
+            <input type="checkbox" name="chkbox" > BA
+        </fieldset>
+        <fieldset>
+            <legend>
+                CONTACT DETAILS
+            </legend>
+            PHONE NUMBER:<input type="text">
+           MAIL ID: <input type="text"> 
+            <input type="Submit">
+        </fieldset>
+    </div>
+</body>
+
+</html>
